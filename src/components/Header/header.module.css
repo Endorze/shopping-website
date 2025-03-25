@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 48px;
+    box-shadow: 0px 5px 5px 0px rgba(204,204,204,1);
+}
+
+.header svg {
+    margin-right: 16px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 16px;
+}

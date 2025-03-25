@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/Header/header'
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-      Herro Wor
+      <Header />
     </>
   )
 }

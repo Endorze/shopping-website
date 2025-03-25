@@ -1,0 +1,27 @@
+Header Component: 
+    Desktop:
+        Logo Component;
+            Image;
+        Navigation Component;
+            Array of links - data.js
+            NavItem Component
+        
+        Login / Register (Requires DB connection)
+        Handle like on items
+        SearchComponent
+            Icon;
+        ShoppingCart Component;
+            Icon
+
+
+    Mobile: 
+        MobileNavigationComponent
+            Menu Icon
+            State Show : Hide menu
+            click: 
+                NavigationComponent
+                    Array of links - data.js
+                    NavItem Component
+
+        LogoComponent
+        CartComponent
