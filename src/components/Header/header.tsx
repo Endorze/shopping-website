@@ -4,13 +4,13 @@ import ShopCart from "../ShopCart/shopCart";
 import styles from "./header.module.css"
 import { pages } from "../../data/data";
 import DesktopNavigation from "../Navigation/DesktopNavigation/desktopNavigation";
+import MobileNavigation from "../Navigation/MobileNavigation/mobileNavigation";
 
 const Header = () => {
     return (
         <header className={styles.header}>
-            <div>
-                <Logo />
-            </div>
+            <MobileNavigation />
+            <Logo />
             <DesktopNavigation />
             <div className={styles.iconWrap}>
                 <Search />
