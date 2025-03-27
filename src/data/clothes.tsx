@@ -1,282 +1,283 @@
 export const pages = ["Home", "Women's", "men", "Kid's", "Blog", "Contact"]
 
+
 const products = [
     {
         "name": "Men's Leather Jacket",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 199.99,
         "description": "A stylish leather jacket for men, perfect for cool weather.",
         "category": "men"
     },
     {
         "name": "Men's Running Shoes",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 79.99,
         "description": "Comfortable and durable running shoes designed for long-distance runners.",
         "category": "men"
     },
     {
         "name": "Men's Casual T-Shirt",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 29.99,
         "description": "A basic cotton T-shirt ideal for everyday wear.",
         "category": "men"
     },
     {
         "name": "Men's Cargo Pants",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "Versatile cargo pants with multiple pockets for convenience.",
         "category": "men"
     },
     {
         "name": "Men's Denim Jeans",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 59.99,
         "description": "Classic denim jeans that are comfortable and durable.",
         "category": "men"
     },
     {
         "name": "Men's Sport Watch",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 99.99,
         "description": "A multifunctional sport watch with GPS and heart rate monitoring.",
         "category": "men"
     },
     {
         "name": "Men's Sunglasses",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "Stylish sunglasses with UV protection for a cool look.",
         "category": "men"
     },
     {
         "name": "Men's Winter Coat",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 129.99,
         "description": "A warm and insulated winter coat for men.",
         "category": "men"
     },
     {
         "name": "Men's Workout Shorts",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 34.99,
         "description": "Breathable workout shorts for ultimate comfort during exercise.",
         "category": "men"
     },
     {
         "name": "Men's Hoodie",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 59.99,
         "description": "A cozy hoodie perfect for casual outings or workouts.",
         "category": "men"
     },
     {
         "name": "Women's Summer Dress",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 89.99,
         "description": "A light and breezy summer dress perfect for hot days.",
         "category": "women"
     },
     {
         "name": "Women's High Heels",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 129.99,
         "description": "Elegant high heels for formal or evening events.",
         "category": "women"
     },
     {
         "name": "Women's Leather Purse",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 159.99,
         "description": "A stylish leather purse with ample storage space.",
         "category": "women"
     },
     {
         "name": "Women's Wool Scarf",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 39.99,
         "description": "A soft wool scarf to keep you warm in the winter.",
         "category": "women"
     },
     {
         "name": "Women's Jogging Pants",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "Comfortable jogging pants perfect for outdoor exercise.",
         "category": "women"
     },
     {
         "name": "Women's Blouse",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 39.99,
         "description": "A chic blouse for a casual yet stylish look.",
         "category": "women"
     },
     {
         "name": "Women's Fitness Tracker",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 79.99,
         "description": "A sleek fitness tracker to monitor your daily activity.",
         "category": "women"
     },
     {
         "name": "Women's Cardigan",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "A versatile cardigan for layering in any season.",
         "category": "women"
     },
     {
         "name": "Women's Sneakers",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 69.99,
         "description": "Comfortable sneakers for casual and athletic wear.",
         "category": "women"
     },
     {
         "name": "Women's Winter Coat",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 129.99,
         "description": "A stylish and warm winter coat for colder months.",
         "category": "women"
     },
     {
         "name": "Women's Sunglasses",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "Trendy sunglasses for a chic look on sunny days.",
         "category": "women"
     },
     {
         "name": "Girls' Unicorn Backpack",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 29.99,
         "description": "A cute and colorful unicorn-themed backpack for young girls.",
         "category": "kid"
     },
     {
         "name": "Boys' Soccer Shorts",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 24.99,
         "description": "Lightweight soccer shorts for young athletes.",
         "category": "kid"
     },
     {
         "name": "Boys' Graphic T-Shirt",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 19.99,
         "description": "A fun graphic T-shirt with a bold design.",
         "category": "kid"
     },
     {
         "name": "Girls' Pink Ballet Shoes",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 19.99,
         "description": "Soft ballet shoes in pink for young dancers.",
         "category": "kid"
     },
     {
         "name": "Boys' Hoodie with Dinosaur Print",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 39.99,
         "description": "A cozy hoodie with a fun dinosaur print for boys.",
         "category": "kid"
     },
     {
         "name": "Girls' Rain Boots",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 29.99,
         "description": "Colorful and waterproof rain boots for girls.",
         "category": "kid"
     },
     {
         "name": "Boys' Baseball Cap",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 15.99,
         "description": "A sporty baseball cap for young boys.",
         "category": "kid"
     },
     {
         "name": "Girls' Snow Jacket",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 59.99,
         "description": "A warm and stylish snow jacket for girls.",
         "category": "kid"
     },
     {
         "name": "Boys' Sneakers",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 39.99,
         "description": "Durable sneakers for active boys.",
         "category": "kid"
     },
     {
         "name": "Girls' School Backpack",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 39.99,
         "description": "A spacious backpack for school essentials.",
         "category": "kid"
     },
     {
         "name": "Men's Watch",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 99.99,
         "description": "A sleek and sophisticated watch for men.",
         "category": "accessories"
     },
     {
         "name": "Leather Wallet",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "A classic leather wallet that never goes out of style.",
         "category": "accessories"
     },
     {
         "name": "Men's Belt",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 24.99,
         "description": "A durable and stylish belt for everyday wear.",
         "category": "accessories"
     },
     {
         "name": "Women's Tote Bag",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 69.99,
         "description": "A spacious and fashionable tote bag.",
         "category": "accessories"
     },
     {
         "name": "Women's Scarf",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 19.99,
         "description": "A lightweight scarf that adds a touch of elegance.",
         "category": "accessories"
     },
     {
         "name": "Men's Sunglasses",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "Trendy sunglasses for sunny days.",
         "category": "accessories"
     },
     {
         "name": "Women's Sunglasses",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "Stylish sunglasses to complement any outfit.",
         "category": "accessories"
     },
     {
         "name": "Travel Neck Pillow",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 19.99,
         "description": "A comfortable neck pillow for long trips.",
         "category": "accessories"
     },
     {
         "name": "Men's Leather Gloves",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 49.99,
         "description": "A comfortable pair of leather gloves.",
         "category": "men"
@@ -284,145 +285,151 @@ const products = [
 
     {
         "name": "Hydrating Face Cream",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 19.99,
         "description": "A deeply moisturizing face cream for all skin types.",
         "category": "cosmetics"
     },
     {
         "name": "Matte Liquid Lipstick",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 12.50,
         "description": "Long-lasting matte lipstick with a smooth finish.",
         "category": "cosmetics"
     },
     {
         "name": "Vitamin C Serum",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 24.99,
         "description": "Brightening serum infused with Vitamin C for radiant skin.",
         "category": "cosmetics"
     },
     {
         "name": "Waterproof Mascara",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 14.75,
         "description": "A smudge-proof mascara that lasts all day.",
         "category": "cosmetics"
     },
     {
         "name": "BB Cream SPF 30",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 16.99,
         "description": "A lightweight BB cream with sun protection.",
         "category": "cosmetics"
     },
     {
         "name": "Eyebrow Pomade",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 11.00,
         "description": "A creamy pomade for sculpted, natural-looking brows.",
         "category": "cosmetics"
     },
     {
         "name": "Charcoal Face Mask",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 18.50,
         "description": "Detoxifying charcoal mask to unclog pores.",
         "category": "cosmetics"
     },
     {
         "name": "Rosewater Facial Toner",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 13.25,
         "description": "Refreshing toner with natural rosewater.",
         "category": "cosmetics"
     },
     {
         "name": "Collagen Eye Cream",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 22.30,
         "description": "Anti-aging eye cream infused with collagen.",
         "category": "cosmetics"
     },
     {
         "name": "Nourishing Lip Balm",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 5.99,
         "description": "Hydrating lip balm with shea butter.",
         "category": "cosmetics"
     },
     {
         "name": "Bronzing Powder",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 15.49,
         "description": "A silky bronzer for a sun-kissed glow.",
         "category": "cosmetics"
     },
     {
         "name": "Makeup Setting Spray",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 17.99,
         "description": "Lightweight setting spray for long-lasting makeup.",
         "category": "cosmetics"
     },
     {
         "name": "Peptide Night Cream",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 26.75,
         "description": "Rejuvenating night cream with peptides.",
         "category": "cosmetics"
     },
     {
         "name": "Cream Blush Stick",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 14.00,
         "description": "A blendable cream blush for a natural flush.",
         "category": "cosmetics"
     },
     {
         "name": "Aloe Vera Gel",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 8.99,
         "description": "Soothing aloe vera gel for hydration and relief.",
         "category": "cosmetics"
     },
     {
         "name": "Mineral Loose Powder",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 19.50,
         "description": "Lightweight mineral powder for a flawless finish.",
         "category": "cosmetics"
     },
     {
         "name": "Exfoliating Face Scrub",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 16.25,
         "description": "Gentle exfoliating scrub for smooth skin.",
         "category": "cosmetics"
     },
     {
         "name": "Tinted Moisturizer",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 21.99,
         "description": "A hydrating tinted moisturizer for a natural glow.",
         "category": "cosmetics"
     },
     {
         "name": "Silk Foundation",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 29.99,
         "description": "A silky foundation for a flawless complexion.",
         "category": "cosmetics"
     },
     {
         "name": "Coconut Body Butter",
-        "image_url": "",
+        "image_url": "lipstick.jpg",
         "price": 18.00,
         "description": "Ultra-hydrating body butter with coconut oil.",
         "category": "cosmetics"
     }
 ]
+
+export const newProducts=[products[0], products[1], products[50], products[25]]
+
+export const imageUrls = ["lipstick.jpg", "shoe.jpg", "shirt.jpg", "jacket.jpg", "tshirt.jpg"]
+
+export const getRandomImage = () => imageUrls[Math.floor(Math.random() * imageUrls.length)]
 
 // export const categoryNames = ["Women","men", "Kid", "Accessories", "Cosmetics"]
 

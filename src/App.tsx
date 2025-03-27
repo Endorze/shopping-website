@@ -1,20 +1,19 @@
-import { useState } from 'react'
-import Header from './components/Header/header'
-import styles from "./components/CategoryTile/categoryTile.module.css"
-import { categoryInfo } from './data/clothes'
-import CategoryTile from './components/CategoryTile/categoryTile'
+import { Route, Routes } from 'react-router-dom'
+import Layout from './components/Layout/layout'
+import Home from './components/Pages/Home/home'
 
 
 function App() {
 
   return (
     <>
-      <Header />
-      <div className={styles.categoryTileContainer}>
-        {categoryInfo && categoryInfo.map((item, index) => (
-          <CategoryTile key={index} {...item} />)
-        )}
-      </div>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path='/' element={<Home />}/>
+        <Route path='/women' element={<Home />}/>
+      </Route>
+    </Routes>
+
     </>
   )
 }
