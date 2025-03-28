@@ -1,0 +1,11 @@
+.card {
+    text-align: center;
+    background: white;
+    flex: 0 0 calc(25% - 16px)
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
