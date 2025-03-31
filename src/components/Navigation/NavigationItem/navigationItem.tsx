@@ -1,14 +1,21 @@
+import { NavLink } from "react-router-dom"
 import styles from "../navigation.module.css"
 
 type Props = {
     name: string
 }
-
-const NavigationItem = ({name}: Props) => {
+ 
+const NavigationItem = ({ name }: Props) => {
     return (
-        <div className={styles.menuItem}>
-            {name}
-        </div>
+        // <NavLink to={name.toLowerCase() === "home" ? "/" : name.toLowerCase()} className={styles.menuItem}>
+        //     {name}
+        // </NavLink>
+
+        <NavLink to={name.toLowerCase() === "home" ? "/" : name.toLowerCase()} className = {({ isActive }) =>
+        isActive ? "active" : ""}>
+        {name}
+        </NavLink>
+        
     )
 }
 

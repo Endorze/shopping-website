@@ -72,7 +72,6 @@ main {
 
 /* Fix Purple Links */
 a, a:visited {
-  color: white !important; 
   text-decoration: none;
 }
 
@@ -144,6 +143,28 @@ a:hover {
   background-color: white;
   color: black;
   transform: translateY(-2px);
+}
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.new-products {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1060px;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.new-products-title {
+  flex: 0 0 100%;
 }
 
 /* Responsive Design */
