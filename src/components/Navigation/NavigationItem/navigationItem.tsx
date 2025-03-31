@@ -4,7 +4,7 @@ import styles from "../navigation.module.css"
 type Props = {
     name: string
 }
-
+ 
 const NavigationItem = ({ name }: Props) => {
     return (
         // <NavLink to={name.toLowerCase() === "home" ? "/" : name.toLowerCase()} className={styles.menuItem}>
